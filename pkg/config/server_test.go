@@ -1,12 +1,11 @@
 package config_test
 
 import (
+	"go-stream/pkg/config"
 	"os"
 	"strconv"
 	"testing"
 	"time"
-
-	"cicd-gitlab-ee.telkomsel.co.id/telkomsel/t-survey/crox-tsurvey/go-chat/pkg/config"
 )
 
 func TestDefaultValue(t *testing.T) {
